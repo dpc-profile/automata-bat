@@ -1,7 +1,7 @@
 REM SCRIPT PARA ELIMINAÇÃO DE ARQUIVOS TEMPORÁRIOS
 REM BABOO 2020
 REM Referencia: https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/
-pause
+
 taskkill /F /IM "ccleaner64.exe"
 taskkill /F /IM "ccleaner.exe"
 
